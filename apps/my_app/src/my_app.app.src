@@ -1,0 +1,6 @@
+{application, my_app, [
+  {description, "Description"},
+  {vsn, "1.0"},
+  {applications, [kernel, stdlib]},
+  {mod, my_app, []}
+]}.
